@@ -50,5 +50,9 @@ $imageLinks = generateImageLinks($images, $selectedType);
 
     <h1>This is heding  </h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam temporibus eum ex laudantium dolorum, tempora, magnam voluptate eligendi beatae atque obcaecati velit perspiciatis fuga recusandae possimus dicta quidem, veniam consectetur animi dignissimos qui?</p>
+    <ul>
+        <li>this is one</li>
+        <li>this is two</li>
+    </ul>
 </body>
 </html>
