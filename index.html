@@ -33,21 +33,6 @@ $imageLinks = generateImageLinks($images, $selectedType);
 <body>
     <a href="test.php">test</a>
     <h1>Select Image Type</h1>
-    <form method="get">
-        <label for="type">Choose an image type:</label>
-        <select name="type" id="type">
-            <option value="jpg" <?php echo $selectedType == 'jpg' ? 'selected' : ''; ?>>JPG</option>
-            <option value="webp" <?php echo $selectedType == 'webp' ? 'selected' : ''; ?>>WEBP</option>
-        </select>
-        <button type="submit">Submit</button>
-    </form>
-
-    <h2>Image Links</h2>
-    <ul>
-        <?php foreach ($imageLinks as $link): ?>
-            <li><a href="<?php echo htmlspecialchars($link); ?>"><?php echo htmlspecialchars($link); ?></a></li>
-        <?php endforeach; ?>
-    </ul>
 
     <h1>This is heding  </h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam temporibus eum ex laudantium dolorum, tempora, magnam voluptate eligendi beatae atque obcaecati velit perspiciatis fuga recusandae possimus dicta quidem, veniam consectetur animi dignissimos qui?</p>
