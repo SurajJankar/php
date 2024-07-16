@@ -5,4 +5,5 @@
 [[redirects]]
   from = "/*"
   to = "/index.php"
+  to = "/text.php"
   status = 200
