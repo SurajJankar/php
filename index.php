@@ -47,5 +47,7 @@ $imageLinks = generateImageLinks($images, $selectedType);
             <li><a href="<?php echo htmlspecialchars($link); ?>"><?php echo htmlspecialchars($link); ?></a></li>
         <?php endforeach; ?>
     </ul>
+
+    <h1>This is heding  </h1>
 </body>
 </html>
