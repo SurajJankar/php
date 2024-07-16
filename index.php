@@ -31,6 +31,7 @@ $imageLinks = generateImageLinks($images, $selectedType);
     <title>Select Image Type</title>
 </head>
 <body>
+    <a href="test.php">test</a>
     <h1>Select Image Type</h1>
     <form method="get">
         <label for="type">Choose an image type:</label>
