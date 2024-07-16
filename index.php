@@ -40,5 +40,16 @@ $imageLinks = generateImageLinks($images, $selectedType);
         <li>this is one</li>
         <li>this is two</li>
     </ul>
+    <table>
+        <tr>
+            <th>this is hedding 1</th>
+            <th>this is hedding 2</th>
+        </tr>
+
+        <tr>
+            <td>one</td>
+            <td>two</td>
+        </tr>
+    </table>
 </body>
 </html>
