@@ -1,28 +1,3 @@
-<?php
-// Array of image names without extension
-$images = ["image1", "image2", "image3"];
-
-// Function to generate image links based on selected type
-function generateImageLinks($images, $type) {
-    $imageLinks = [];
-    foreach ($images as $image) {
-        $imageLinks[] = $image . '.' . $type;
-    }
-    return $imageLinks;
-}
-
-// Get the selected image type from the user input
-$selectedType = isset($_GET['type']) ? $_GET['type'] : 'jpg';
-
-// Validate the selected type
-if (!in_array($selectedType, ['jpg', 'webp'])) {
-    $selectedType = 'jpg'; // Default to 'jpg' if invalid type is provided
-}
-
-// Generate image links
-$imageLinks = generateImageLinks($images, $selectedType);
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +6,7 @@ $imageLinks = generateImageLinks($images, $selectedType);
     <title>Select Image Type</title>
 </head>
 <body>
-    <a href="test.php">test</a>
+    <a href="test.html">test</a>
     <h1>Select Image Type</h1>
 
     <h1>This is heding  </h1>
